@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- sets the character set your document should use to utf-8 -->
+  <title>Apple</title>
+  <!-- title tag defines what is shown on the tab of the browser -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <!-- NAV BAR START -->
+  <!-- Put whole div in a class container (1.) / then CLASSIFY the content within the listed items in another container all together (1.1) / and then specify each item's ID in that container (1.1a) -->
+  <!--Make a Bucket, in the bucket label everything that is a fruit, now specify each fruits name(id)-->
+  <header>
+    <nav>
+      <div class="container">
+        <ul>
+          <li><a href="" class="nav-link" id="nav-apple-logo"></a></li><!--
+          --><li><a href="" class="nav-link" id="nav-mac"></a></li><!--
+          --><li><a href="" class="nav-link" id="nav-ipad"></a></li><!--
+          --><li><a href="" class="nav-link" id="nav-iphone"></a></li><!--
+          --><li><a href="" class="nav-link" id="nav-watch"></a></li><!--
+          --><li><a href="" class="nav-link" id="nav-tv"></a></li><!--
+          --><li><a href="" class="nav-link" id="nav-music"></a></li><!--
+          --><li><a href="" class="nav-link" id="nav-support"></a></li><!--
+          --><li><a href="" class="nav-link" id="nav-search"></a></li><!--
+          --><li><a href="" class="nav-link" id="nav-shop"></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- write your hero section here -->
+  <!-- One Bucket (hero) contains two smaller buckets (1- Product info 2-Product Img). Each item in each bucket needs to be labeled.  
+    Hero(Bucket)
+      -1 Product info 
+        - 3 different sections each with their own Identifier 
+      -2 Product Img
+        - Product Img (hardly any text! all css)) 
+  -->
+  <div> 
+    <div class="hero">
+      <div id="product-info">
+        <h1 id="product-name">iPhone 13 Pro</h1>
+        <h2 id="product-text">Oh. So. Pro.</h2>
+        <ul id="product-links">
+          <li><a href="#">Learn More &#62;</a></li>
+          <li><a href="#">Buy &#62;</a></li>
+        </ul>
+      </div>
+      <div class="product-img"></div>
+    </div>
+  </div>
+
+
+
+    <!--------------------------------------SUB HERO----------------------------------------->
+    <!-- HINTS:  you need to create 4 div elements and set each one to a col-3 class and make each take up 25% of the width. 
+      Remember to add display: inline-block;. 
+              Then you need to use the corresponding images as a background-image to each div. 
+              You can give each div a unique ID and add the background image in the CSS file. -->
+
+    <!-- Same as Nav Bar: 
+      1.) put whole Div in a class container (1) / 
+      2.) then CLASSIFY all listed items in another container (1.1) / 
+      3.) and then specify each item's ID in that container (1.1a)        
+    -->  
+  <div>
+   <div class="hero-sub-section"> <!-- Bucket -->
+    <!--class= group all the photos together / ID="specify each item in the bucket"-->
+   <div class="col-3 hero-sub-images" id="hero-sub-watch"></div><!--
+    --><div class="col-3 hero-sub-images" id="hero-sub-ipad"></div><!--
+    --><div class="col-3 hero-sub-images" id="hero-sub-access"></div><!--
+    --><div class="col-3 hero-sub-images" id="hero-sub-macbook"></div>
+    </div>
+    <div>
+      <p id="exchange"><a href="#">AC Wall Plug Adaptor Recall Program</a></p>
+    </div>
+  </div> 
+   <!-------------------------------END OF SUB HERO --------------------------------------->
+  <!--------------------------------------FOOTER ------------------------------------------>
+  <!--1.) container div to center the content
+      2.) Unordered lists for each column ( 5 columns)
+      3.) overarching container -> each column will then have a matching class - Ul with in each matching class 
+  -->
+  <footer>
+    <div class="container">
+      <div class="footer-nav"> 
+        <div class="col-2">
+          <ul>
+            <li>Shop and Learn</li>
+            <li><a href="#">Mac</a></li>
+            <li><a href="">iPad</a></li>
+            <li><a href="">iPhone</a></li>
+            <li><a href="">Watch</a></li>
+            <li><a href="">TV</a></li>
+            <li><a href="">Music</a></li>
+            <li><a href="">iTunes</a></li>
+            <li><a href="">iPod</a></li>
+            <li><a href="">Accessories</a></li>
+            <li><a href="">Gift Cards</a></li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <ul>
+            <li>Apple Store</li>
+            <li><a href="">Find a Store</a></li>
+            <li><a href="">Genius Bar</a></li>
+            <li><a href="">Workshops and Learning</a></li>
+            <li><a href="">Youth Programs</a></li>
+            <li><a href="">Apple Store App</a></li>
+            <li><a href="">Refurbished</a></li>
+            <li><a href="">Financing</a></li>
+            <li><a href="">Reuse and Recycling</a></li>
+            <li><a href="">Order Status</a></li>
+            <li><a href="">Shopping Help</a></li>
+          </ul>
+        </div><!--
+        --><div class="col-2">
+          <ul>
+            <li>For Education</li>
+            <li><a href="">Apple and Education</a></li>
+            <li><a href="">Shop for College</a></li>
+          </ul>
+          <ul>
+            <li>For Business</li>
+            <li><a href="">iPhone in Business</a></li>
+            <li><a href="">iPad in Business</a></li>
+            <li><a href="">Mac in Business</a></li>
+            <li><a href="">Shop for Your Business</a></li>
+          </ul>
+        </div><!--
+        --><div class="col-2">
+          <ul>
+            <li>Account</li>
+            <li><a href="">Manage Your Apple ID</a></li>
+            <li><a href="">Apple Store Account</a></li>
+            <li><a href="">iCloud.com</a></li>
+          </ul>
+          <ul>
+            <li>Apple Values</li>
+            <li><a href="">Environment</a></li>
+            <li><a href="">Supplier Responsibility</a></li>
+            <li><a href="">Accessibility</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Inclusion and Diversity</a></li>
+            <li><a href="">Education</a></li>
+          </ul>
+        </div><!--
+        --><div class="col-2">
+          <ul>
+            <li>About Apple</li>
+            <li><a href="">Apple Info</a></li>
+            <li><a href="">Job Opportunities</a></li>
+            <li><a href="">Press Info</a></li>
+            <li><a href="">Investors</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Hot News</a></li>
+            <li><a href="">Legal</a></li>
+            <li><a href="">Contact Apple</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-help">
+        <p>More ways to shop: Visit an <a href="">Apple Store</a>, call 1-800-MY-APPLE, or <a href="">find a reseller</a>.</p>
+        <div id="legal">Copyright © 2016 Apple Inc. All rights reserved.</div>
+        <div id="legal-links">
+          <a href="">Privacy Policy</a>
+          <a href="">Terms of Use</a>
+          <a href="">Sales and Refunds</a>
+          <a href="">Site Map</a>
+        </div>
+        <div id="locale">
+          <a href="">
+            <span id="locale-flag"></span>
+          </a>
+          <a href=""></a>United States</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
